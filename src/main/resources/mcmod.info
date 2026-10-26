@@ -1,0 +1,16 @@
+[
+{
+  "modid": "meowtils",
+  "name": "Meowtils",
+  "description": "Collection of various utility features.",
+  "version": "2.0.0-pre.4.1",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["tatp"],
+  "credits": "tatp",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

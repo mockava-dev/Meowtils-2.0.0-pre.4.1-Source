@@ -1,0 +1,37 @@
+{
+  "required": true,
+  "minVersion": "0.7",
+  "package": "wtf.tatp.meowtils.mixins",
+  "refmap": "mixins.meowtils.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "MixinModList",
+    "MixinFontRenderer_AntiObfuscate",
+    "PlayerControllerMPAccessor",
+    "MixinEntityRenderer_ViewClip",
+    "MixinEntityPlayerSP_FakeAutoBlock",
+    "MixinNetworkManager",
+    "MixinGuiPlayerTabOverlay_NameTags",
+    "MixinEntityPlayer_NameTags",
+    "MixinGuiContainer_ItemHighlight",
+    "MixinGuiContainer_ShinyPots",
+    "MixinKeyBinding_NullMove",
+    "MixinKeyBinding_InventoryMove",
+    "MixinNetHandlerPlayClient_InventoryMove",
+    "MixinGuiContainer_InventoryClickCancel",
+    "GuiContainerAccessor",
+    "MixinGuiContainer_InventoryFill",
+    "MixinNetworkManager_ViewPackets",
+    "MixinNetHandlerPlayClient_ViewPackets",
+    "MixinGuiContainer_AutoChest",
+    "MixinItemArmor_NoArmorDye",
+    "MixinLayerArmorBase_NoArmorDye",
+    "MixinAbstractClientPlayer_Cape",
+    "MixinKeyBinding_HotbarLock",
+    "MinecraftAccessor",
+    "EntityLivingBaseAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
